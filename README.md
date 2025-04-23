@@ -18,13 +18,21 @@ signatures of the class methods or tests.
 You can import this project into [Replit](https://replit.com), and it will
 handle all dependencies automatically.
 
+If using PyCharm, you may need to install `pytest` first, see below instructions.
+
+
 ### Prerequisites
 
 * [Python 3.8+](https://www.python.org/)
 * [pytest](https://pytest.org)
 
+To install pytest, run in console:
+```console
+pip install -U pytest
+```
+
 ### Run tests
 
 ```console
-make test
+pytest
 ```
